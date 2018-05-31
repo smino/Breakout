@@ -1,0 +1,84 @@
+html {
+    height: 80vh;
+    width: 100vw;
+    background: url(../img/main/Background.png)no-repeat;
+    background-size:cover;
+}
+
+h1{
+    background-size:cover;
+    color:white;
+    font-style: italic;
+    border-style: none;
+    font-size:600%;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+}
+input{
+    height:auto;
+    width:auto;
+    background: transparent;
+    border-style: none;
+    margin-top: auto;
+    font-size:200%;
+}
+
+#wrapper {
+    min-width: 568px;
+    min-height: 320px;
+    max-width: 823px;
+    max-height: 411px;
+    margin: 0 auto;
+}
+
+
+#home {
+    display: grid;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+#home div {
+    margin: auto;
+}
+
+#home ul input {
+    color: white;
+}
+
+.full-screen {
+    padding: 15px;
+    margin: auto;
+}
+
+.invisible {
+    display: none !important;
+}
+
+
+.visible {
+    display: block;
+}
+
+.plain {
+    height: 241px;
+    width: 500px;
+    margin: auto;
+}
+
+.plain p {
+    padding: 15px;
+}
